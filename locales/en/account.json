@@ -1,0 +1,19 @@
+{
+  "updated succesfully": "mise à jour effectuée",
+ "Save changes" : "Sauvegarder",
+  "overview": "Aperçu",
+  "profile": "Profil",
+  "addresses": "Adresses",
+  "orders": "Commandes",
+  "log out": "Déconnexion",
+  "Add address": "ajouter l'adresse",
+  "save": "sauvegarder",
+  "cancel": "annuler",
+  "Welcome back" : "Bienvenue",
+"Sign in to access an enhanced shopping experience." : "Identifiez-vous pour accéder à la boutique",
+"These credentials do not match our records": "Email ou mot de passe incorrecte",
+"Not a member?" : "Pas encore inscrit",
+"Join us" : "Rejoignez-nous",
+"Password" : "Mot de passe"
+  }
+  

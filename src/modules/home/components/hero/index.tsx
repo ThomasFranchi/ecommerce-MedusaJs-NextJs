@@ -18,7 +18,7 @@ Nous garantissons ainsi pour chacun de nos carnets une qualité, pratique comme 
         <UnderlineLink href="/store">Explore products</UnderlineLink>
       </div>
       <Image
-        src="/hero.jpg"
+        src="/1_A7i_lot_cyan_rouge.jpg"
         layout="fill"
         loading="eager"
         priority={true}

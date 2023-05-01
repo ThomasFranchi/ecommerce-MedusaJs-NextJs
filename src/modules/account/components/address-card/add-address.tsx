@@ -9,6 +9,9 @@ import Plus from "@modules/common/icons/plus"
 import Spinner from "@modules/common/icons/spinner"
 import React, { useState } from "react"
 import { useForm } from "react-hook-form"
+import useTranslation from 'next-translate/useTranslation';
+
+const { t } = useTranslation('account');
 
 type FormValues = {
   first_name: string
@@ -94,7 +97,7 @@ const AddAddress: React.FC = () => {
       </button>
 
       <Modal isOpen={state} close={handleClose}>
-        <Modal.Title>Add address</Modal.Title>
+        <Modal.Title> {t('Add address')} </Modal.Title>
         <Modal.Body>
           <div className="grid grid-cols-1 gap-y-2">
             <div className="grid grid-cols-2 gap-x-2">
@@ -179,10 +182,10 @@ const AddAddress: React.FC = () => {
             className="!bg-gray-200 !text-gray-900 !border-gray-200 min-h-0"
             onClick={handleClose}
           >
-            Cancel
+             {t('Cancel')}
           </Button>
           <Button className="min-h-0" onClick={submit} disabled={submitting}>
-            Save
+             {t('Save')}
             {submitting && <Spinner />}
           </Button>
         </Modal.Footer>

@@ -1,0 +1,17 @@
+{
+    "metaTitle": "Localisation de Next.js avec Next-Translate",
+    "title": "Bienvenue dans mon application NextJS i18n !",
+    "description": "J'utilise la bibliothèque Next-Translate pour traduire cette page.",
+    "welcome": "Bienvenue",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "store": "Boutique",
+    "Latest products" : "Nos derniers produits",
+    "account" : "compte",
+    "Explore products" : "Découvrez nos produits"
+   }
+
